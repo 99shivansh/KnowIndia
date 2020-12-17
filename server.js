@@ -9,7 +9,7 @@ const bodyParser=require('body-parser');
 const passport=require('passport');
  const config=require('./config/database');
  
-
+ const port=process.env.PORT || 8080;
 //connect to database
 mongoose.connect(config.database, { useUnifiedTopology: true , useNewUrlParser: true });
 
@@ -44,4 +44,4 @@ app.get('/',(req,res)=>
 );
 
 
-app.listen(5000,()=>{console.log("server started");})
+app.listen(port,()=>{console.log("server started");})
