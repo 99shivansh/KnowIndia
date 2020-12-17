@@ -7,7 +7,7 @@
     <span class="menu-spacer"></span>
     <div >
       <a [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/']">Home</a></a>
-      <a *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/dashboard']">Dasbboard</a></a>
+      <a *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/dashboard']">Dashboard</a></a>
       <a *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/profile']">Profile</a></a>
       <a *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/city']">Cities</a></a>
       <a *ngIf="authService.loggedIn()  && authService.isadmin()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/editcity']">EditCities</a></a>
@@ -27,7 +27,7 @@
   <mat-sidenav #sidenav>
     <mat-nav-list>
       <a mat-list-item [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/']">Home</a></a>
-      <a mat-list-item *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/dashboard']">Dasbboard</a></a>
+      <a mat-list-item *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/dashboard']">Dashboard</a></a>
       <a mat-list-item *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/profile']">Profile</a></a>
       <a mat-list-item *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/city']">Cities</a></a>
       <a mat-list-item *ngIf="authService.loggedIn() && authService.isadmin()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/editcity']">EditCity</a></a>
