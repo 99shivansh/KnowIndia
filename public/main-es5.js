@@ -1521,9 +1521,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     DashboardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: DashboardComponent,
       selectors: [["app-dashboard"]],
-      decls: 161,
+      decls: 147,
       vars: 2,
-      consts: [[1, "carousel-fade", 3, "isControls", "animation"], [1, "form-group"], ["src", "https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "alt", "First slide", 1, "d-block", "w-100"], ["src", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "alt", "Second slide", 1, "d-block", "w-100"], ["src", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg", "alt", "Third slide", 1, "d-block", "w-100"], ["charset", "utf-8"], ["name", "viewport", "content", "width=device-width, initial-scale=1"], ["rel", "stylesheet", "href", "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"], ["id", "page-content", 1, "content"], [1, "container"], [1, "row"], [1, "col-md-12", "myt-content-inner", 2, "z-index", "0"], ["id", "page-2", 1, "col-md-6", "col-sm-6"], [1, "page-box-wrapper"], ["itemscope", "", "itemtype", "http://schema.org/Service", 1, "page-box"], [1, "box-image"], ["itemprop", "photo", "src", "https://www.makeyourtrip.com/dist/images/pickdestination.png", "alt", "makeyourtrip Clock Time Duration"], [1, "box-title"], ["itemprop", "name", 1, "box-title"], [1, "box-description"], ["itemprop", "description"], [1, "test"], ["itemprop", "photo", "src", "https://www.makeyourtrip.com/dist/images/customize.png", "alt", "makeyourtrip Geo Location Map"], [1, "col-md-6", "col-sm-6"], ["itemprop", "photo", "src", "https://www.makeyourtrip.com/dist/images/getcost.png", "alt", "makeyourtrip Passport Visa Travel"], ["itemprop", "photo", "src", "https://www.makeyourtrip.com/dist/images/havagreattrip.png", "alt", "makeyourtrip Fly Airfare Camera Photos"], ["id", "totorial-d-d", 1, "col-md-12", "myt-content-inner", 2, "z-index", "0"], [1, "clearfix", "makeyourtrip"], [1, "col-md-12", "col-sm-12", "text-center"], [1, "codegena"], ["width", "500", "height", "294", "src", "https://www.youtube.com/embed/Jq04t1BzjlU?&theme=light&autohide=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3", "frameborder", "0"], [1, "clearfix"], [1, "col-md-12", "col-sm-12"], [1, "sub-title"], [1, "col-md-3", "col-sm-3", "col-sm-3"], ["href", "https://www.makeyourtrip.com/DPS", "target", "_blank"], [1, "activities-wrapper"], ["itemscope", "", "itemtype", "http://schema.org/Place", 1, "activities"], [1, "activity-overlay"], [1, "titles-wrapper"], [1, "main-title"], ["itemprop", "name", 1, "main-title"], ["itemprop", "description", 1, "sub-title"], [1, "activity-image"], ["itemprop", "photo", "src", "//fmffiles.s3.amazonaws.com/files/1_DestinationSize_225x330.-FMF1501069821.jpg", "alt", "Denpasar, Bali"], ["href", "https://www.makeyourtrip.com/MLE", "target", "_blank"], ["itemprop", "photo", "src", "//fmffiles.s3.amazonaws.com/files/2_DestinationSize_225x330.-FMF1501069827.jpg", "alt", "maldives"], ["href", "https://www.makeyourtrip.com/SIN", "target", "_blank"], ["itemprop", "photo", "src", "//fmffiles.s3.amazonaws.com/files/3_DestinationSize_225x330.-FMF1501069830.jpg", "alt", "Singapore"], ["href", "https://www.makeyourtrip.com/SYD", "target", "_blank"], ["photo", "", 1, "activity-image"], ["itemprop", "photo", "src", "//fmffiles.s3.amazonaws.com/files/4_DestinationSize_225x330.-FMF1501069834.jpg", "alt", "Sydney"], [2, "position", "fixed", "right", "16px", "z-index", "999", "bottom", "10px", "display", "none"], [1, "closer-win", 2, "z-index", "99999", "background", "#3f7bbb", "color", "#dae1e4", "padding", "2px 11px", "border-radius", "50%", "font-size", "20px", "position", "absolute", "top", "-11px", "right", "-9px", "cursor", "pointer"], ["href", "https://www.makeyourtrip.com/promotion/UniversalOffer"], ["src", "https://fmffiles.s3.amazonaws.com/trip-planner/landing-pages/Singapore-popup.jpg", "alt", "Free Holidays for two", 1, "close-banner", 2, "border-radius", "4px", "box-shadow", "-1px 1px 20px #0009"], ["id", "footerDiv", 1, "footer"], [1, "col-md-12"], [1, "copy-right"], [1, "pull-right"], [1, "social-wrapper"], [1, "social-icon"], ["rel", "nofollow", "href", "https://web.facebook.com/Makeyourtrip-766019963566069/", "target", "_blank"], ["alt", "makeyourtrip facebook social media", "src", "https://www.makeyourtrip.com/dist/images/facebook.png"], ["rel", "nofollow", "href", "https://twitter.com/Make_your_trip", "target", "_blank"], ["alt", "makeyourtrip twitter social media", "src", "https://www.makeyourtrip.com/dist/images/twitter.png"], ["rel", "nofollow", "href", "https://www.instagram.com/makeyourtrip2017/", "target", "_blank"], ["alt", "makeyourtrip instagram social media photosharing", "src", "https://www.makeyourtrip.com/dist/images/insta.png"], [1, "powered-by"], ["alt", "makeyourtrip findmyfare", "src", "https://www.makeyourtrip.com/dist/images/fmf-logo.png", "width", "110px"]],
+      consts: [[1, "carousel-fade", 3, "isControls", "animation"], [1, "form-group"], ["src", "https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg", "alt", "First slide", 1, "d-block", "w-100"], ["src", "https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg", "alt", "Second slide", 1, "d-block", "w-100"], ["src", "https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg", "alt", "Third slide", 1, "d-block", "w-100"], ["charset", "utf-8"], ["name", "viewport", "content", "width=device-width, initial-scale=1"], ["rel", "stylesheet", "href", "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"], ["id", "page-content", 1, "content"], [1, "container"], [1, "row"], [1, "col-md-12", "myt-content-inner", 2, "z-index", "0"], ["id", "page-2", 1, "col-md-6", "col-sm-6"], [1, "page-box-wrapper"], ["itemscope", "", "itemtype", "http://schema.org/Service", 1, "page-box"], [1, "box-image"], ["itemprop", "photo", "src", "https://www.makeyourtrip.com/dist/images/pickdestination.png", "alt", "makeyourtrip Clock Time Duration"], [1, "box-title"], ["itemprop", "name", 1, "box-title"], [1, "box-description"], ["itemprop", "description"], [1, "test"], ["itemprop", "photo", "src", "https://www.makeyourtrip.com/dist/images/customize.png", "alt", "makeyourtrip Geo Location Map"], [1, "col-md-6", "col-sm-6"], ["itemprop", "photo", "src", "https://www.makeyourtrip.com/dist/images/getcost.png", "alt", "makeyourtrip Passport Visa Travel"], ["itemprop", "photo", "src", "https://www.makeyourtrip.com/dist/images/havagreattrip.png", "alt", "makeyourtrip Fly Airfare Camera Photos"], ["id", "totorial-d-d", 1, "col-md-12", "myt-content-inner", 2, "z-index", "0"], [1, "clearfix", "makeyourtrip"], [1, "col-md-12", "col-sm-12", "text-center"], [1, "codegena"], ["width", "500", "height", "294", "src", "https://www.youtube.com/embed/Jq04t1BzjlU?&theme=light&autohide=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3", "frameborder", "0"], [1, "clearfix"], [1, "col-md-12", "col-sm-12"], [1, "sub-title"], [1, "col-md-3", "col-sm-3", "col-sm-3"], ["href", "", "target", "_blank"], [1, "activities-wrapper"], ["itemscope", "", "itemtype", "http://schema.org/Place", 1, "activities"], [1, "activity-overlay"], [1, "titles-wrapper"], [1, "main-title"], ["itemprop", "name", 1, "main-title"], ["itemprop", "description", 1, "sub-title"], [1, "activity-image"], ["itemprop", "photo", "src", "//fmffiles.s3.amazonaws.com/files/1_DestinationSize_225x330.-FMF1501069821.jpg", "alt", "Denpasar, Bali"], ["itemprop", "photo", "src", "//fmffiles.s3.amazonaws.com/files/2_DestinationSize_225x330.-FMF1501069827.jpg", "alt", "maldives"], ["itemprop", "photo", "src", "//fmffiles.s3.amazonaws.com/files/3_DestinationSize_225x330.-FMF1501069830.jpg", "alt", "Singapore"], ["photo", "", 1, "activity-image"], ["itemprop", "photo", "src", "//fmffiles.s3.amazonaws.com/files/4_DestinationSize_225x330.-FMF1501069834.jpg", "alt", "Sydney"], [2, "position", "fixed", "right", "16px", "z-index", "999", "bottom", "10px", "display", "none"], [1, "closer-win", 2, "z-index", "99999", "background", "#3f7bbb", "color", "#dae1e4", "padding", "2px 11px", "border-radius", "50%", "font-size", "20px", "position", "absolute", "top", "-11px", "right", "-9px", "cursor", "pointer"], ["href", ""], ["src", "https://fmffiles.s3.amazonaws.com/trip-planner/landing-pages/Singapore-popup.jpg", "alt", "Free Holidays for two", 1, "close-banner", 2, "border-radius", "4px", "box-shadow", "-1px 1px 20px #0009"], ["id", "footerDiv", 1, "footer"], [1, "col-md-12"], [1, "pull-right"], [1, "social-wrapper"], [1, "powered-by"]],
       template: function DashboardComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mdb-carousel", 0);
@@ -1824,7 +1824,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "div", 34);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "a", 45);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "a", 35);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 36);
 
@@ -1856,7 +1856,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "div", 43);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](102, "img", 46);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](102, "img", 45);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1870,7 +1870,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "div", 34);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "a", 47);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "a", 35);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "div", 36);
 
@@ -1902,7 +1902,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "div", 43);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](115, "img", 48);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](115, "img", 46);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1916,7 +1916,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 34);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "a", 49);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "a", 35);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "div", 36);
 
@@ -1946,11 +1946,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div", 50);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "div", 47);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](128, "img", 51);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](128, "img", 48);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1968,103 +1966,55 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "div", 52);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "span", 53);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "div", 49);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "span", 50);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, "x");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "a", 54);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "a", 51);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](133, "img", 55);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](133, "img", 52);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "div", 56);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "div", 53);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "div", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "div", 10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "div", 57);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "div", 54);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "div", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "div", 10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "div", 23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](140, "div", 23);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "div", 58);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "div", 23);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, " Copyright \xA9 2018 Findmyfare Private Limited, Sri Lanka. All rights reserved. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "div", 55);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](143, "div", 56);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "div", 23);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "div", 59);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "div", 60);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "span", 61);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "a", 62);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](148, "img", 63);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](144, "div", 57);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "span", 61);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "a", 64);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](151, "img", 65);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](145, "div", 31);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](152, "span", 61);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "a", 66);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](154, "img", 67);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "div", 68);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](156, "div");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](157, "Powered by");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](158, "img", 69);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](159, "div", 31);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](160, "div", 31);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](146, "div", 31);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -3687,7 +3637,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Dasbboard");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Dashboard");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -3863,7 +3813,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Dasbboard");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Dashboard");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
