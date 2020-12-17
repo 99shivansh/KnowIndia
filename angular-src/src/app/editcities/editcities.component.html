@@ -1,0 +1,40 @@
+<div class="container">
+    <mat-card class="example-card">
+        <mat-card-header>
+            <mat-form-field class="example-full-width">
+                <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+            </mat-form-field>
+        </mat-card-header>
+       <!-- buttons for adding cities  -->
+        <div class="example-button-container">
+            <button (click)="onsubmit4()" mat-mini-fab color="primary" aria-label="Example icon button with a filter list icon">
+              <mat-icon>plus_one</mat-icon>
+            </button>
+            <div><h3>Add Cities</h3></div>
+          </div>
+        <mat-card-content class="grid">
+           <!-- button -->
+
+            <mat-card class="example-card-two" *ngFor="let user of this.dataSource.filteredData;let i = index">
+                <mat-card-header>
+                    <!-- <div mat-card-avatar class="example-header-image"></div> -->
+                    <mat-card-title>{{user}}</mat-card-title>
+                    <mat-card-subtitle></mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="{{img1[i]}}" >
+                <mat-card-content>
+                  <p>
+                     {{citydesc[i]}}
+                  </p>
+                </mat-card-content>
+                <mat-card-actions >
+                    <button (click)="onsubmit(i)" mat-button>Know more</button>
+                    <button (click)="onsubmit2(i)" mat-button>Edit details</button>
+                    <button (click)="onsubmit3(i)" mat-button>Delete city</button>
+                </mat-card-actions>
+            </mat-card>
+        </mat-card-content>
+
+    </mat-card>
+
+</div>

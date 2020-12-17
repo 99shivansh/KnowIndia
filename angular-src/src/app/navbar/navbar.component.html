@@ -1,0 +1,81 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button>
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+    </button>
+    <h1>KNOWINDIA</h1>
+    <span class="menu-spacer"></span>
+    <div >
+      <a [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/']">Home</a></a>
+      <a *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/dashboard']">Dasbboard</a></a>
+      <a *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/profile']">Profile</a></a>
+      <a *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/city']">Cities</a></a>
+      <a *ngIf="authService.loggedIn()  && authService.isadmin()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/editcity']">EditCities</a></a>
+      <a *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/login']">login</a></a>
+      <a *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/register']">Register</a></a>
+      <a *ngIf="authService.loggedIn()" > <a mat-button (click)="onLogoutClick()" href="#">Logout</a></a>
+      
+
+    </div>
+  </mat-toolbar-row>
+
+  <!-- <mat-toolbar-row>
+      <span style="font-size: 12px;">SimpleCRM helps you easily manage your contacts</span>
+    </mat-toolbar-row> -->
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav>
+    <mat-nav-list>
+      <a mat-list-item [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/']">Home</a></a>
+      <a mat-list-item *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/dashboard']">Dasbboard</a></a>
+      <a mat-list-item *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/profile']">Profile</a></a>
+      <a mat-list-item *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/city']">Cities</a></a>
+      <a mat-list-item *ngIf="authService.loggedIn() && authService.isadmin()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/editcity']">EditCity</a></a>
+      <a mat-list-item *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/login']">login</a></a>
+      <a mat-list-item *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a mat-button [routerLink]="['/register']">Register</a></a>
+      <a mat-list-item *ngIf="authService.loggedIn()" > <a mat-button (click)="onLogoutClick()" href="#">Logout</a></a>
+      
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div style="height: 88vh;">
+
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>mean auth app</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+
+<nav class="navbar  navbar-expand navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">MEANAUTHAPP</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/']">Home</a></li>
+      <li *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/dashboard']">Dasbboard</a></li>
+      <li *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/profile']">Pofile</a></li>
+      
+      <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/login']">login</a></li>
+      <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/register']">Register</a></li>
+      <li *ngIf="authService.loggedIn()" ><a (click)="onLogoutClick()"href="#">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+  
+
+
+</body>
+</html> -->
