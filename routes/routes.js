@@ -225,6 +225,6 @@ router.post('/upload', upload.single('image'), function (req, res, next) {
     
     let alert = require('alert');  
     alert("Image Uploaded Successfully")
-    res.json({msg:'working image uplaoded successfuly',filename:'https://knowindiacityimages.s3.us-east-2.amazonaws.com/'+a});
+    res.json({msg:'working image uplaoded successfuly',imagestatus:'1',filename:'https://knowindiacityimages.s3.us-east-2.amazonaws.com/'+a});
 });
 module.exports=router;

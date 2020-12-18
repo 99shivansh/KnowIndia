@@ -9,6 +9,8 @@ import {Router} from '@angular/router';
 })
 export class AddcitiesComponent implements OnInit {
 imgloc="";
+pr=0;
+msg="wait for successful upload msg and progress bar";
   constructor(private authService:AuthService
     ,private router:Router,
     private formBuilder:FormBuilder,
@@ -82,8 +84,11 @@ imgloc="";
  this.authService.uploadimage(formData).subscribe(res => {
    let allcitydata = {} as any;
    allcitydata = res
-  //console.log(allcitydata.filename);
-
+  console.log(allcitydata);
+if(allcitydata.imagestatus=='1')
+{
+this.progressfun();
+}
   this.img1=this.imgloc+ allcitydata.filename;
   
 },err=>{
@@ -121,7 +126,21 @@ imgloc="";
   });
   this.router.navigate(['city']);
   }
-  
+  progressfun()
+  {
+    this.pr=10;
+    this.pr=20;
+    this.pr=30;
+    this.pr=40;
+    this.pr=50;
+    this.pr=60;
+    this.pr=70;
+    this.pr=80;
+    this.pr=90;
+    this.pr=100;
+    this.msg="Image uploaded";
+
+  }
   
 
   }

@@ -12,7 +12,7 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
-
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 const MaterialComponents=[
   MatMenuModule,MatButtonModule,
   MatToolbarModule,
@@ -21,7 +21,8 @@ const MaterialComponents=[
       MatIconModule,
     CarouselModule, WavesModule,MatCardModule,
     MatAutocompleteModule,
-    MatFormFieldModule,MatInputModule,MatSelectModule
+    MatFormFieldModule,MatInputModule,MatSelectModule,
+    MatProgressBarModule
 ];
 
 

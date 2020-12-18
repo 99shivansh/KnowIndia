@@ -1,54 +1,59 @@
 
 <div class="example-container">
-    <h1>cityname</h1>
-    <mat-form-field appearance="fill">
-      <mat-label>cityname</mat-label>
-      <input matInput [formControl]="citynamed" >
-    </mat-form-field>
-    
-    <br>
-    <h1>citydesc</h1>
-    <mat-form-field appearance="fill">
-      <mat-label>citydescriptions</mat-label>
-      <input matInput [formControl]="citydescd">
-      <!-- <textarea matInput  [formControl]="stateCtrl"></textarea> -->
+  <h1>cityname</h1>
+  <mat-form-field appearance="fill">
+    <mat-label>cityname</mat-label>
+    <input matInput [formControl]="citynamed" >
+  </mat-form-field>
+  
+  <br>
+  <h1>citydesc</h1>
+  <mat-form-field appearance="fill">
+    <mat-label>citydescriptions</mat-label>
+    <input matInput [formControl]="citydescd">
+    <!-- <textarea matInput  [formControl]="stateCtrl"></textarea> -->
 
-    </mat-form-field>
-    <br>
-    <h1>citydesc2</h1>
-    <mat-form-field appearance="fill">
-      <mat-label>citydescriptions2</mat-label>
-      <input matInput [formControl]="citydescd2">
-      <!-- <textarea matInput  [formControl]="stateCtrl"></textarea> -->
+  </mat-form-field>
+  <br>
+  <h1>citydesc2</h1>
+  <mat-form-field appearance="fill">
+    <mat-label>citydescriptions2</mat-label>
+    <input matInput [formControl]="citydescd2">
+    <!-- <textarea matInput  [formControl]="stateCtrl"></textarea> -->
 
-    </mat-form-field>
-    <br>
-    <!-- <h1>imagelocation</h1>
-    <mat-form-field appearance="fill">
-      <mat-label>img</mat-label>
-      <input matInput [formControl]="img1d">
-    </mat-form-field> -->
+  </mat-form-field>
+  <br>
+  <!-- <h1>imagelocation</h1>
+  <mat-form-field appearance="fill">
+    <mat-label>img</mat-label>
+    <input matInput [formControl]="img1d">
+  </mat-form-field> -->
 
-    <!-- <br>
-    <mat-form-field appearance="fill">
-      <mat-label>Select</mat-label>
-      <mat-select>
-        <mat-option value="option">Option</mat-option>
-      </mat-select>
-    </mat-form-field> -->
-    <form action="">
-        <label for="myfile">Select a file:</label>
-        <input  [formControl]="img1dd" type="file" (change)="onFileChange($event, 'image')"><br><br>
-        <input type="submit" (click)="uploadimage()">wait for successful upload popup
-      </form>
-  </div>
-  <section>
-    <div class="example-label"></div>
-    <div class="example-button-row">
-     
-      <button (click)="addcity()" mat-raised-button color="primary">Add city</button>
-      
-      <!-- <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a> -->
+  <!-- <br>
+  <mat-form-field appearance="fill">
+    <mat-label>Select</mat-label>
+    <mat-select>
+      <mat-option value="option">Option</mat-option>
+    </mat-select>
+  </mat-form-field> -->
+  <form action="">
+      <label for="myfile">Select a file:</label>
+      <input  [formControl]="img1dd" type="file" (change)="onFileChange($event, 'image')"><br><br>
+      <input type="submit" (click)="uploadimage()">{{msg}}
+    </form>
+    <div class="progress">
+      <mat-progress-bar mode="determinate" value="{{pr}}"></mat-progress-bar>
     </div>
+    <div></div>
     
-  </section>
+</div>
+<section>
+  <div class="example-label"></div>
+  <div class="example-button-row">
+   
+    <button (click)="addcity()" mat-raised-button color="primary">Add city</button>
+    
+    <!-- <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a> -->
+  </div>
+  
+</section>
