@@ -63,7 +63,7 @@ var app = express(),
     s3 = new aws.S3();
 
 app.use(bodyParser.json());
-a=Date.now()+'.png';
+a=Math.floor(Math.random() * 10000) + 1+'.png';
 var upload = multer({
     storage: multerS3({
         s3: s3,
