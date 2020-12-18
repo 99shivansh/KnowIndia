@@ -63,7 +63,8 @@ var app = express(),
     s3 = new aws.S3();
 
 app.use(bodyParser.json());
-a=Math.floor(Math.random() * 10000) + 1+'.png';
+
+//Math.floor(Math.random() * 10000) + 1+'.png';
 var upload = multer({
     storage: multerS3({
         s3: s3,
@@ -71,8 +72,9 @@ var upload = multer({
         bucket: 'knowindiacityimages',
         key: function (req, file, cb) {
             console.log(a);
+            a=file.originalname;
            // console.log(file.originalname);
-            cb(null, file.originalname); //use Date.now() for unique file keys
+            cb(null, a); //use Date.now() for unique file keys
         }
     })
 });
