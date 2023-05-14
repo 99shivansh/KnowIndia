@@ -11,6 +11,7 @@ export class AuthService {
 authToken:any;
 user:any;
 citysessiond:any;
+ private url= 'https://knowindiabackend.onrender.com/';
   constructor(private http:HttpClient) { }
   isadmin()
     {
@@ -27,7 +28,7 @@ citysessiond:any;
   registerUser(user) {
     let headers = new HttpHeaders();
     headers.append('Content-Type', 'application/json');
-    return this.http.post('user/register', user, {
+    return this.http.post(this.url +'user/register', user, {
       headers: headers,
       observe: 'response'
     }).pipe(map((res:HttpResponse<JSON>)=> res));
@@ -35,7 +36,7 @@ citysessiond:any;
   authenticateUser(user){
     let headers = new HttpHeaders();
     headers.append('Content-Type', 'application/json');
-    return this.http.post('user/authenticate', user, {
+    return this.http.post(this.url +'user/authenticate', user, {
       headers: headers,
       observe: 'response'
     }).pipe(map((res:HttpResponse<JSON>)=> res));
@@ -59,11 +60,11 @@ citysessiond:any;
     //   'Content-Type': 'application/json'
       
     // });
-    return this.http.get('user/getallcitydata');
+    return this.http.get(this.url +'user/getallcitydata');
   }
   getcitydatabyid(cityid){
    
-    return this.http.get('user/getcitydata',{params: { id:cityid }}); 
+    return this.http.get(this.url +'user/getcitydata',{params: { id:cityid }}); 
     
     }
     updatecitydatabyid(bodyd)
@@ -72,12 +73,12 @@ citysessiond:any;
         'Content-Type': 'application/json',
      
       });
-      return this.http.put('user/updatecitydata',bodyd, {headers: headers}).pipe(map((res:HttpResponse<JSON>)=> res)); 
+      return this.http.put(this.url +'user/updatecitydata',bodyd, {headers: headers}).pipe(map((res:HttpResponse<JSON>)=> res)); 
    
     }
     deletecitydatabyid(cityid){
    
-      return this.http.delete('user/deletecitydata',{params: { id:cityid }}); 
+      return this.http.delete(this.url +'user/deletecitydata',{params: { id:cityid }}); 
       
       }
       addnewcity(bodyd)
@@ -86,7 +87,7 @@ citysessiond:any;
         'Content-Type': 'application/json',
      
       });
-      return this.http.post('user/newcitydata',bodyd, {headers: headers}).pipe(map((res:HttpResponse<JSON>)=> res)); 
+      return this.http.post(this.url +'user/newcitydata',bodyd, {headers: headers}).pipe(map((res:HttpResponse<JSON>)=> res)); 
    
     }
     uploadimage(bodyd)
@@ -95,7 +96,7 @@ citysessiond:any;
         'Content-Type': 'application/json',
      
       });
-      return this.http.post('user/upload',bodyd).pipe(map((res:HttpResponse<JSON>)=> res)); 
+      return this.http.post(this.url +'user/upload',bodyd).pipe(map((res:HttpResponse<JSON>)=> res)); 
    
     }
   citysession(cityid){
